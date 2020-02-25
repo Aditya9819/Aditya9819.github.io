@@ -1,0 +1,190 @@
+<html>
+<head>
+<style>
+
+	body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #F0EFE2 url(background.png) repeat;
+  color: #777;
+  
+  
+  }
+  
+  p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+  h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: white;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+  table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;}
+  
+table tr td
+{ background: #F0EFE2;
+  color: #47433F;
+  border-top: 1px solid #FFF;}
+  .sidebar
+{ float: right;
+  width: 190px;
+  padding: 0 15px 20px 15px;}
+  #header
+{ background: #1D1D1D url(header.png) repeat;
+  height: 200px;}
+  ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #FD5BFF;}
+ #menubar
+{ width: 900px;
+  height: 72px;
+  padding: 0;
+  margin-left:500px;
+  background: #1293EE;}
+
+  ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+ 
+  } 
+  .content{
+		text-align:left;
+		text-align:left;
+		background-color:white;
+		margin-left:500px;
+		margin-right:500px;
+		font: normal 105% 'century gothic', arial, sans-serif;
+		
+  }
+  
+
+  </style>
+  <body>
+  <body>
+
+    <div id="header">
+   
+          
+          <h1 align="center"><u><b>Aditya Shrivastava<b><u></h1>
+		  <h4  align="center">CSE Undergrad</h4>
+        
+      <div id="menubar"  align="center">
+        <ul  align="center"  id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li  align="center"><a href="Home.html">Home</a></li>
+          <li  align="center"><a href="AboutME.html">AboutME</a></li>
+          <li align="center" ><a href="Location.html">Location</a></li>
+          <li align="center"><a href="Subject_in_semester.html">Subjects in semester</a></li>
+		  <li align="center"><a href="About HTML.html">About HTML</a></li>
+		  <li  align="center"><a href="Gallery.html">Gallery</a></li>
+        </ul>
+   
+    </div>
+	</div>
+    </div>
+	<div class="sidebar">
+	
+        <ul>
+          <li><a href="#1">Intro</a></li>
+          <li><a href="#2">Text Formatting</a></li>
+          <li><a href="#3">Lists</a></li>
+          <li><a href="#4">Images</a></li>
+        </ul>
+		</div>
+	<div class="content"> 
+	<a id="1">Intro</a><br>
+
+	<ul>
+
+<li>HTML stands for Hyper Text Markup Language</li>
+<li>HTML describes the structure of a Web page</li>
+<li>HTML consists of a series of elements</li>
+<li>HTML elements tell the browser how to display the content</li>
+<li>HTML elements are represented by tags</li>
+<li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+<li>rowsers do not display the HTML tags, but use them to render the content of the page</li></ul>
+<a id="2">Text Formatting</a><br><ol>
+<li>Making text Bold or Strong: We can make the text bold using the b tag. The tag uses both opening and closing tag. The text that needs to be made bold must be within b and /b tag.
+We can also use the  tag to make the text strong, with added semantic importance. It also opens with strong and ends with /strong tag.</li>
+<li>Making text Italic or emphasize: The i tag is used to italicise the text. It opens with i and ends with /i tag.
+The em tag is used to emphasize the text, with added semantic importance. It opens with em and ends with em tag.</li>
+<li>Highlighting a text: It is also possible to highlight a text in HTML using the mark tag. It has a opening tag mark and a closing tag mark.</li>
+<li>Making a text Subscript or Superscript: The sup element is used to superscript a text and sub element is used to subscript a text. They both have opening and a closing tag</li>
+<li>Making text smaller: The small element is used to make the text smaller. The text that needs to be displayed smaller should be written inside small and /small tag.</li>
+<li>Striking through the text: The del element is used to strike through the text marking the part as deleted. It also has an opening and a closing tag.</li>
+<li>Adding a text: The ins element is used to underline a text marking the part as inserted or added. It also has an opening and a closing tag.</li></ol>
+<a id="3">Lists</a><br>
+The types of lists that can be used in HTML are :
+<ol>
+
+<li>ul : An unordered list. This will list items using plain bullets.An unordered list starts with the ul tag. Each list item starts with the li tag.The list items are marked with bullets i.e small black circles by default.</li>
+
+<ul>
+<li>Disc</li>
+<li>Circle</li>
+<li>Square</li></ul>
+<li>ol : An ordered list. This will use different schemes of numbers to list your items.</li>
+<ul>
+<li>Type=1 </li>
+<li>Type=A</li>
+<li>Type=a </li>
+<li>Type=I</li>
+<li>Type=i</li></ul>
+<li>dl : A definition list. This arranges your items in the same way as they are arranged in a dictionary.</li>
+
+<li>A description list is a list of terms, with a description of each term.
+The dl tag defines the description list, the dt tag defines the term name, and the dd tag describes each term.</li></ol>
+<a id="4">Images</a>
+<ol>
+<li>src stands for source. Every image has a src attribute which tells the browser where to find the image you want to display. The URL of the image provided points to the location where the image is stored.</li>
+<li>alt:If the image cannot be displayed then the alt attribute acts as an alternative description for the image. The value of the alt attribute is an user-defined text.</li>
+<li>Setting width and height of Image :The width and height attributes are used to specify the height and width of an image. The attribute values are specified in pixels by default.</li>
+<li>Adding animated Image: Animated images in .gif format can also be added using the “img” tag.</li>  
+<li>Adding titles to Image: Along with the images, titles can also be added to images to provide further information related to the inserted image. For inserting a title, the title attribute is used.</li>
+<li>Setting a border to Image :By default, every picture has a border around it. By using the border attribute, the thickness of the border can be changed. A thickness of “0” means that there will be no border around the picture.</li>
+<li>Aligning a Picture: By default, an image is aligned at the left side of the page, but it can be aligned to center or right using the align attribute.</li>
+<li>Adding Image as a Link: An image can work as a link with a URL embedded in it. It can be done by using the “img” tag inside an “a” tag.</li>
+
+	
+	      
+	</div>
+	
+
+     
+      
+	</body>
